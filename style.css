@@ -23,10 +23,7 @@ body {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.change-table {
-    max-width: 40vw;
-    word-wrap: break-word;
-}
+
 
 .btn-change {
     margin: 0.5em auto;
@@ -46,13 +43,6 @@ body {
     margin: 1em auto;
 }
 
-table,
-th,
-td {
-    border: solid 2px var(--primary-color);
-    border-collapse: collapse;
-    padding: 0.2em;
-}
 
 .heading {
     font-weight: bold;
@@ -80,5 +70,18 @@ input:focus {
 
 p {
     margin: 0.3em auto;
-    word-wrap: break-word;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    border: solid 2px var(--primary-color);
+    text-align: left;
+    padding: 8px;
 }
